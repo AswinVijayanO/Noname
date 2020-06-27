@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+  font-family: 'Karla',Circular Std;
+  transition-duration: 200ms;
+}
+.topPageBG{
+  top:-10px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.svg-icon {
+  padding-top: 20px;
+  fill: #f33;
+  width: 150px;
+}
+.netflix{
+  color:#f33;
+  font-size: 2em;
+}
+.header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2px 60px;
+}
+.signin{
+  background-color: #f33;
+  border-radius: 5%;
+  font-size:18px;
+  height: fit-content;
+  padding: 5px 15px;
+}
+.background{
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right:0;
+  opacity: 0.5;
+}
+.unlimited{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  
+}
+.title-cnter{
+  width: 40vw;
+  text-align: center;
+  margin: auto;
+  padding: 120px 45px;
+}
+.watch{
+  font-size:1.5rem;
+}
+.watchNow{
+  padding :10px 30px;
+  background-color: #f33;
+  width: fit-content;
+  margin: auto;
+  font-size: 30px;
+    border-radius: 5px;
+}
+.watchNow:hover{
+  color:rgba(70, 70, 70, 0.438);
+  background-color: rgb(255, 255, 255);
+  transition-duration: 500ms;
+}
+.CardMain{
+  background-color: #000;
+  display: flex;
+  flex: 1;
+  box-shadow: 0px -5px #333;
+}
+.card-content{
+  margin: 0% 15%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+.columnrev{
+  flex-direction: row-reverse;
+}
+.card-text{
+  width: 30vw;
+  text-align: left;
+}
+
+
+h1{
+  font-weight:700;
+}
+.trynow{
+  padding: 10px 50px;
+  width: fit-content;
+  box-shadow: 0 0 2px #FFF;
+  margin-right: 10px;
+}
+.trynow:hover{
+  color:rgba(0, 0, 0, 0.438);
+  background-color: rgb(255, 255, 255);
+  transition-duration: 500ms;
+}
+@media (max-width: 700px) {
+  .card-content{
+    flex-direction: column;
+    margin: 0% 0%;
+    width: 80vw;
+  }
+  .card-text{
+    text-align: center;
+    justify-content: center;
+    width: 60vw;
+  }
+  h1{
+    font-size:100%;
+  }
+  h3{
+    font-size: 80%;
+  }
+  .background{
+    height: 80%;
+  }
+  .unlimited{
+    font-size: 2rem;    
+  }
+  .title-cnter{
+    width: 60vw;
+    margin: auto;
+  }
+  .watch{
+    font-size:1rem;
+  }
+  .App{
+    overflow-y: hidden;
+  }
+.trynow {
+   display: none;
+}
+.header{
+  margin: 2px 20px;
+}
+.svg-icon {
+  width: 100px;
+}
+}
+.endCredits{
+  height: 100px;
+  margin: 70px auto;
+  color: #666;
+}
