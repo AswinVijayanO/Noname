@@ -3,4 +3,5 @@
 
 [ScreenShot](https://raw.githubusercontent.com/AswinVijayanO/Noname/master/Screenshots/screenshot-desktop.png)
 
-[ScreenShot](https://raw.githubusercontent.com/AswinVijayanO/Noname/master/Screenshots/Screenshot_20200627-115739.jpg)
+<img src="https://raw.githubusercontent.com/AswinVijayanO/Noname/master/Screenshots/Screenshot_20200627-115739.jpg" width="100" />
+<img src="https://raw.githubusercontent.com/AswinVijayanO/Noname/master/Screenshots/screenshot-desktop.png" width="100" />
